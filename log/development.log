@@ -1320,3 +1320,3617 @@ Started GET "/articles" for 127.0.0.1 at 2011-06-10 16:16:03 -0500
 Rendered articles/_article.html.erb (20.0ms)
 Rendered articles/index.html.erb within layouts/application (25.7ms)
 Completed 200 OK in 45ms (Views: 31.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 18:06:39 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (66.6ms)
+Rendered articles/index.html.erb within layouts/application (113.7ms)
+Completed 200 OK in 266ms (Views: 138.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 18:11:28 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.7ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (30.3ms)
+Rendered articles/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 67ms (Views: 47.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 18:14:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (65.0ms)
+Rendered articles/index.html.erb within layouts/application (72.5ms)
+Completed 200 OK in 92ms (Views: 78.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 18:24:48 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.1ms)
+Rendered articles/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 47ms (Views: 33.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:10:10 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (27.5ms)
+Rendered articles/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 55ms (Views: 40.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:10:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (29.1ms)
+Rendered articles/index.html.erb within layouts/application (36.7ms)
+Completed 200 OK in 58ms (Views: 42.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:10:12 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (71.2ms)
+Rendered articles/index.html.erb within layouts/application (78.2ms)
+Completed 200 OK in 98ms (Views: 84.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:11:43 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.9ms)
+Rendered articles/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 52ms (Views: 37.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:11:59 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.2ms)
+Rendered articles/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 52ms (Views: 36.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:13:40 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.7ms)
+Rendered articles/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 100ms (Views: 85.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:15:30 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (75.7ms)
+Rendered articles/index.html.erb within layouts/application (84.9ms)
+Completed 200 OK in 106ms (Views: 91.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:15:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (26.6ms)
+Rendered articles/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 58ms (Views: 41.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:15:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (30.6ms)
+Rendered articles/index.html.erb within layouts/application (39.5ms)
+Completed 200 OK in 83ms (Views: 60.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:15:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (71.8ms)
+Rendered articles/index.html.erb within layouts/application (79.1ms)
+Completed 200 OK in 106ms (Views: 90.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:15:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.0ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 70ms (Views: 41.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:15:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (69.1ms)
+Rendered articles/index.html.erb within layouts/application (76.2ms)
+Completed 200 OK in 99ms (Views: 83.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:15:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.6ms)
+Rendered articles/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 53ms (Views: 38.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:20:00 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 33ms (Views: 11.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:20:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 49ms (Views: 34.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:20:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.8ms)
+Rendered articles/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 54ms (Views: 38.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:35:17 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (66.8ms)
+Rendered articles/index.html.erb within layouts/application (74.6ms)
+Completed 200 OK in 95ms (Views: 80.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stylesheets/article.css" for 127.0.0.1 at 2011-06-14 19:35:17 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:35:19 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (19.9ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 48ms (Views: 33.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/stylesheets/article.css" for 127.0.0.1 at 2011-06-14 19:35:20 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:35:36 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (30.0ms)
+Rendered articles/index.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 69ms (Views: 53.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/partials/article.css" for 127.0.0.1 at 2011-06-14 19:35:37 -0500
+
+ActionController::RoutingError (No route matches "/partials/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:35:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.1ms)
+Rendered articles/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 47ms (Views: 33.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/partials/article.css" for 127.0.0.1 at 2011-06-14 19:35:38 -0500
+
+ActionController::RoutingError (No route matches "/partials/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:35:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (71.2ms)
+Rendered articles/index.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 100ms (Views: 85.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/partials/article.css" for 127.0.0.1 at 2011-06-14 19:35:39 -0500
+
+ActionController::RoutingError (No route matches "/partials/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:35:41 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.4ms)
+Rendered articles/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 54ms (Views: 38.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/partials/article.css" for 127.0.0.1 at 2011-06-14 19:35:44 -0500
+
+ActionController::RoutingError (No route matches "/partials/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:36:09 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.3ms)
+Rendered articles/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 48ms (Views: 33.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:36:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (19.9ms)
+Rendered articles/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 47ms (Views: 33.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/stylesheets/article.css" for 127.0.0.1 at 2011-06-14 19:36:11 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/stylesheets/article.css" for 127.0.0.1 at 2011-06-14 19:36:13 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/article.css"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:36:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.1ms)
+Rendered articles/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 53ms (Views: 32.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:36:48 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 48ms (Views: 34.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:36:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (19.7ms)
+Rendered articles/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 90ms (Views: 76.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:40:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 47ms (Views: 33.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:40:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.4ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 48ms (Views: 34.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:40:37 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (75.7ms)
+Rendered articles/index.html.erb within layouts/application (84.7ms)
+Completed 200 OK in 107ms (Views: 91.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:42:48 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 48ms (Views: 33.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:42:49 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (33.4ms)
+Rendered articles/index.html.erb within layouts/application (42.3ms)
+Completed 200 OK in 62ms (Views: 48.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:42:50 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (67.5ms)
+Rendered articles/index.html.erb within layouts/application (74.9ms)
+Completed 200 OK in 95ms (Views: 81.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:42:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 50ms (Views: 35.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:42:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.1ms)
+Rendered articles/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 47ms (Views: 33.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:43:15 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (19.9ms)
+Rendered articles/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 48ms (Views: 33.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:43:16 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (64.9ms)
+Rendered articles/index.html.erb within layouts/application (71.9ms)
+Completed 200 OK in 92ms (Views: 78.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:44:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.2ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 50ms (Views: 34.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:54:58 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 49ms (Views: 33.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:54:59 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (74.8ms)
+Rendered articles/index.html.erb within layouts/application (85.3ms)
+Completed 200 OK in 116ms (Views: 94.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:55:00 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (19.9ms)
+Rendered articles/index.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 47ms (Views: 32.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:55:04 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.4ms)
+Rendered articles/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 58ms (Views: 39.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:56:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (68.8ms)
+Rendered articles/index.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 97ms (Views: 82.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:56:58 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.0ms)
+Rendered articles/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 46ms (Views: 32.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:57:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.6ms)
+Rendered articles/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 48ms (Views: 33.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:59:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.5ms)
+Rendered articles/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 106ms (Views: 87.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:59:07 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.4ms)
+Rendered articles/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 46ms (Views: 33.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:59:44 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.0ms)
+Rendered articles/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 49ms (Views: 34.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 19:59:46 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (30.9ms)
+Rendered articles/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 62ms (Views: 46.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:02:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (72.7ms)
+Rendered articles/index.html.erb within layouts/application (80.1ms)
+Completed 200 OK in 100ms (Views: 86.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:02:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (19.8ms)
+Rendered articles/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 48ms (Views: 32.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:02:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 47ms (Views: 33.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:05:49 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.1ms)
+Rendered articles/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 50ms (Views: 35.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:11:58 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (67.2ms)
+Rendered articles/index.html.erb within layouts/application (74.8ms)
+Completed 200 OK in 95ms (Views: 80.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:12:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.5ms)
+Rendered articles/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 49ms (Views: 35.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:16:45 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (34.6ms)
+Rendered articles/index.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 66ms (Views: 52.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:18:46 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.0ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 49ms (Views: 34.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:18:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (19.9ms)
+Rendered articles/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 51ms (Views: 36.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:19:40 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (65.5ms)
+Rendered articles/index.html.erb within layouts/application (73.1ms)
+Completed 200 OK in 93ms (Views: 78.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:21:54 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 48ms (Views: 34.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:21:55 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 59ms (Views: 37.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:21:55 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (31.6ms)
+Rendered articles/index.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 63ms (Views: 49.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:21:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (65.3ms)
+Rendered articles/index.html.erb within layouts/application (72.4ms)
+Completed 200 OK in 93ms (Views: 78.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:25:54 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.1ms)
+Rendered articles/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 49ms (Views: 33.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:25:55 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 49ms (Views: 34.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:25:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.1ms)
+Rendered articles/index.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 102ms (Views: 41.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:25:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.7ms)
+Rendered articles/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 53ms (Views: 39.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:27:04 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (28.2ms)
+Rendered articles/index.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 55ms (Views: 41.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:27:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.9ms)
+Rendered articles/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 50ms (Views: 35.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:27:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (71.0ms)
+Rendered articles/index.html.erb within layouts/application (78.9ms)
+Completed 200 OK in 100ms (Views: 84.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:27:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.1ms)
+Rendered articles/index.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 72ms (Views: 53.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:28:16 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.3ms)
+Rendered articles/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 50ms (Views: 34.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:28:17 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (69.1ms)
+Rendered articles/index.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 100ms (Views: 85.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:28:18 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.1ms)
+Rendered articles/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 55ms (Views: 37.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:28:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.8ms)
+Rendered articles/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 51ms (Views: 35.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:28:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.6ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 101ms (Views: 33.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:31:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (68.2ms)
+Rendered articles/index.html.erb within layouts/application (75.3ms)
+Completed 200 OK in 96ms (Views: 81.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:31:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.4ms)
+Rendered articles/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 54ms (Views: 39.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:31:35 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (32.6ms)
+Rendered articles/index.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 61ms (Views: 46.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:31:36 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (90.4ms)
+Rendered articles/index.html.erb within layouts/application (99.5ms)
+Completed 200 OK in 122ms (Views: 107.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:31:36 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.7ms)
+Rendered articles/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 54ms (Views: 36.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:31:36 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.0ms)
+Rendered articles/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 56ms (Views: 35.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:31:36 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (67.7ms)
+Rendered articles/index.html.erb within layouts/application (75.8ms)
+Completed 200 OK in 97ms (Views: 81.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:33:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.1ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 48ms (Views: 34.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:25 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.8ms)
+Rendered articles/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 51ms (Views: 36.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:26 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.5ms)
+Rendered articles/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 109ms (Views: 39.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (32.3ms)
+Rendered articles/index.html.erb within layouts/application (39.6ms)
+Completed 200 OK in 60ms (Views: 45.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:28 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.5ms)
+Rendered articles/index.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 50ms (Views: 35.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (31.0ms)
+Rendered articles/index.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 62ms (Views: 45.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (69.0ms)
+Rendered articles/index.html.erb within layouts/application (76.2ms)
+Completed 200 OK in 97ms (Views: 82.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.3ms)
+Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 49ms (Views: 35.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:34:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (28.9ms)
+Rendered articles/index.html.erb within layouts/application (36.9ms)
+Completed 200 OK in 117ms (Views: 42.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:35:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (68.2ms)
+Rendered articles/index.html.erb within layouts/application (75.4ms)
+Completed 200 OK in 96ms (Views: 81.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:35:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.1ms)
+Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 49ms (Views: 35.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:35:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.4ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 49ms (Views: 34.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:35:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (74.2ms)
+Rendered articles/index.html.erb within layouts/application (81.6ms)
+Completed 200 OK in 102ms (Views: 87.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:35:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 47ms (Views: 33.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:35:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 49ms (Views: 33.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:37:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (69.3ms)
+Rendered articles/index.html.erb within layouts/application (76.7ms)
+Completed 200 OK in 97ms (Views: 83.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:37:48 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 61ms (Views: 34.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.0ms)
+Rendered articles/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 48ms (Views: 32.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 97ms (Views: 82.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.3ms)
+Rendered articles/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 49ms (Views: 34.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.1ms)
+Rendered articles/index.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 67ms (Views: 51.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.4ms)
+Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 105ms (Views: 35.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (34.0ms)
+Rendered articles/index.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 72ms (Views: 50.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.1ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 50ms (Views: 34.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (74.0ms)
+Rendered articles/index.html.erb within layouts/application (81.4ms)
+Completed 200 OK in 103ms (Views: 87.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:38:54 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.3ms)
+Rendered articles/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 50ms (Views: 34.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:06 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 48ms (Views: 34.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:08 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (67.9ms)
+Rendered articles/index.html.erb within layouts/application (75.8ms)
+Completed 200 OK in 96ms (Views: 81.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 48ms (Views: 34.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 48ms (Views: 33.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (70.8ms)
+Rendered articles/index.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 98ms (Views: 84.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.1ms)
+Rendered articles/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 50ms (Views: 34.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.8ms)
+Rendered articles/index.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 53ms (Views: 36.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (66.2ms)
+Rendered articles/index.html.erb within layouts/application (73.2ms)
+Completed 200 OK in 94ms (Views: 79.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:39:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.3ms)
+Rendered articles/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 49ms (Views: 34.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:40:25 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (36.2ms)
+Rendered articles/index.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 72ms (Views: 51.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:41:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (70.4ms)
+Rendered articles/index.html.erb within layouts/application (77.6ms)
+Completed 200 OK in 99ms (Views: 83.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:41:28 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 49ms (Views: 34.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:41:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.4ms)
+Rendered articles/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 51ms (Views: 35.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:41:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (49.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.3ms)
+Rendered articles/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 103ms (Views: 39.9ms | ActiveRecord: 49.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:42:19 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (66.0ms)
+Rendered articles/index.html.erb within layouts/application (73.2ms)
+Completed 200 OK in 93ms (Views: 78.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:42:20 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.0ms)
+Rendered articles/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 52ms (Views: 38.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:42:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.3ms)
+Rendered articles/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 47ms (Views: 33.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:43:04 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (69.3ms)
+Rendered articles/index.html.erb within layouts/application (76.5ms)
+Completed 200 OK in 97ms (Views: 82.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:43:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.0ms)
+Rendered articles/index.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 46ms (Views: 32.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:43:35 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.3ms)
+Rendered articles/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 55ms (Views: 40.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:43:36 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.5ms)
+Rendered articles/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 103ms (Views: 34.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:43:37 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.7ms)
+Rendered articles/index.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 118ms (Views: 102.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:43:37 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 52ms (Views: 35.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:43:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (26.5ms)
+Rendered articles/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 54ms (Views: 40.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:44:12 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (68.2ms)
+Rendered articles/index.html.erb within layouts/application (76.5ms)
+Completed 200 OK in 100ms (Views: 85.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:46:08 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 48ms (Views: 33.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:46:58 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (29.3ms)
+Rendered articles/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 58ms (Views: 42.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:48:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 48ms (Views: 33.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:48:50 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (78.3ms)
+Rendered articles/index.html.erb within layouts/application (87.9ms)
+Completed 200 OK in 109ms (Views: 94.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:49:04 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (29.6ms)
+Rendered articles/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 63ms (Views: 45.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:49:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 49ms (Views: 34.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:49:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (19.4ms)
+Rendered articles/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 47ms (Views: 32.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:50:17 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (76.1ms)
+Rendered articles/index.html.erb within layouts/application (83.9ms)
+Completed 200 OK in 108ms (Views: 91.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:50:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (28.5ms)
+Rendered articles/index.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 71ms (Views: 47.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:51:09 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.3ms)
+Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 51ms (Views: 33.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:54:44 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.0ms)
+Rendered articles/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 50ms (Views: 35.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:56:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.4ms)
+Rendered articles/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 50ms (Views: 35.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:57:39 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (28.2ms)
+Rendered articles/index.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 127ms (Views: 47.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:58:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (76.0ms)
+Rendered articles/index.html.erb within layouts/application (83.9ms)
+Completed 200 OK in 103ms (Views: 89.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:58:19 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 50ms (Views: 34.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:59:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.6ms)
+Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 51ms (Views: 35.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:59:06 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.0ms)
+Rendered articles/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 53ms (Views: 36.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:59:17 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (80.6ms)
+Rendered articles/index.html.erb within layouts/application (88.7ms)
+Completed 200 OK in 110ms (Views: 94.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 20:59:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 50ms (Views: 34.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:00:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.8ms)
+Rendered articles/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 52ms (Views: 37.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:01:01 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.7ms)
+Rendered articles/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 54ms (Views: 39.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:01:02 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 107ms (Views: 41.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:04:06 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (66.5ms)
+Rendered articles/index.html.erb within layouts/application (74.2ms)
+Completed 200 OK in 94ms (Views: 80.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:04:08 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 49ms (Views: 34.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:04:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 54ms (Views: 36.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:06:28 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (72.3ms)
+Rendered articles/index.html.erb within layouts/application (80.4ms)
+Completed 200 OK in 105ms (Views: 86.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:07:30 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (68.4ms)
+Rendered articles/index.html.erb within layouts/application (76.1ms)
+Completed 200 OK in 96ms (Views: 81.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:08:15 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.0ms)
+Rendered articles/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 50ms (Views: 34.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:09:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.7ms)
+Rendered articles/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 60ms (Views: 35.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:10:04 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 117ms (Views: 34.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:10:21 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (70.3ms)
+Rendered articles/index.html.erb within layouts/application (78.4ms)
+Completed 200 OK in 109ms (Views: 86.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:11:10 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.0ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 49ms (Views: 34.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:11:13 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.3ms)
+Rendered articles/index.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 119ms (Views: 52.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:11:39 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (72.5ms)
+Rendered articles/index.html.erb within layouts/application (80.2ms)
+Completed 200 OK in 100ms (Views: 86.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:11:40 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.9ms)
+Rendered articles/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 54ms (Views: 37.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2011-06-14 21:11:54 -0500
+  Processing by ArticlesController#new as HTML
+Rendered articles/_form.html.erb (258.4ms)
+Rendered articles/new.html.erb within layouts/application (265.0ms)
+Completed 200 OK in 287ms (Views: 270.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2011-06-14 21:12:03 -0500
+  Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = 1 LIMIT 1[0m
+Rendered articles/_form.html.erb (71.7ms)
+Rendered articles/edit.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 104ms (Views: 85.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:12:55 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.1ms)
+Rendered articles/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 50ms (Views: 35.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:12:57 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 51ms (Views: 35.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:12:58 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (70.4ms)
+Rendered articles/index.html.erb within layouts/application (79.5ms)
+Completed 200 OK in 101ms (Views: 86.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:12:58 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.6ms)
+Rendered articles/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 51ms (Views: 36.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:12:59 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.3ms)
+Rendered articles/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 52ms (Views: 36.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:14:04 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 99ms (Views: 34.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:14:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.9ms)
+Rendered articles/index.html.erb within layouts/application (36.6ms)
+Completed 200 OK in 64ms (Views: 47.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:14:06 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.5ms)
+Rendered articles/index.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 56ms (Views: 40.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:14:07 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.5ms)
+Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 52ms (Views: 37.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:14:07 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (72.4ms)
+Rendered articles/index.html.erb within layouts/application (80.5ms)
+Completed 200 OK in 105ms (Views: 86.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:20:02 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.6ms)
+Rendered articles/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 49ms (Views: 34.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:20:41 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.3ms)
+Rendered articles/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 49ms (Views: 34.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:20:42 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (47.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.3ms)
+Rendered articles/index.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 100ms (Views: 39.8ms | ActiveRecord: 47.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:22:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (71.2ms)
+Rendered articles/index.html.erb within layouts/application (78.8ms)
+Completed 200 OK in 99ms (Views: 85.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:22:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.7ms)
+Rendered articles/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 54ms (Views: 36.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:23:55 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.6ms)
+Rendered articles/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 48ms (Views: 34.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:23:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (76.9ms)
+Rendered articles/index.html.erb within layouts/application (84.6ms)
+Completed 200 OK in 104ms (Views: 90.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:23:57 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 49ms (Views: 34.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:24:00 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.0ms)
+Rendered articles/index.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 54ms (Views: 40.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:24:00 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (67.1ms)
+Rendered articles/index.html.erb within layouts/application (75.6ms)
+Completed 200 OK in 98ms (Views: 81.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:24:01 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 60ms (Views: 39.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:24:01 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (24.6ms)
+Rendered articles/index.html.erb within layouts/application (44.2ms)
+Completed 200 OK in 65ms (Views: 50.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:24:14 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.5ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 49ms (Views: 34.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:25:21 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.4ms)
+Rendered articles/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 51ms (Views: 35.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:25:41 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.6ms)
+Rendered articles/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 50ms (Views: 34.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:25:42 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 115ms (Views: 34.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:25:43 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 48ms (Views: 33.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:25:44 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (19.6ms)
+Rendered articles/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 47ms (Views: 33.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:27:09 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.7ms)
+Rendered articles/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 55ms (Views: 37.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:27:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (67.8ms)
+Rendered articles/index.html.erb within layouts/application (76.2ms)
+Completed 200 OK in 96ms (Views: 82.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:29:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 49ms (Views: 34.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:29:48 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.3ms)
+Rendered articles/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 52ms (Views: 36.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:29:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.0ms)
+Rendered articles/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 60ms (Views: 40.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:29:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (69.4ms)
+Rendered articles/index.html.erb within layouts/application (80.4ms)
+Completed 200 OK in 101ms (Views: 86.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:29:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 50ms (Views: 34.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:29:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (37.1ms)
+Rendered articles/index.html.erb within layouts/application (49.2ms)
+Completed 200 OK in 128ms (Views: 112.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:30:50 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (69.0ms)
+Rendered articles/index.html.erb within layouts/application (76.9ms)
+Completed 200 OK in 97ms (Views: 82.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:30:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.5ms)
+Rendered articles/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 54ms (Views: 39.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:30:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.0ms)
+Rendered articles/index.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 59ms (Views: 38.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:30:54 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (70.5ms)
+Rendered articles/index.html.erb within layouts/application (78.9ms)
+Completed 200 OK in 109ms (Views: 86.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:31:28 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.0ms)
+Rendered articles/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 49ms (Views: 34.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:31:30 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.4ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 56ms (Views: 38.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:31:50 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (80.7ms)
+Rendered articles/index.html.erb within layouts/application (90.6ms)
+Completed 200 OK in 111ms (Views: 96.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:32:26 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 49ms (Views: 34.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:32:40 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (34.0ms)
+Rendered articles/index.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 75ms (Views: 55.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:33:01 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.4ms)
+Rendered articles/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 49ms (Views: 33.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:33:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.1ms)
+Rendered articles/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 49ms (Views: 34.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:37:07 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (68.4ms)
+Rendered articles/index.html.erb within layouts/application (76.2ms)
+Completed 200 OK in 97ms (Views: 82.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:37:22 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.2ms)
+Rendered articles/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 54ms (Views: 36.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:37:42 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 49ms (Views: 34.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:38:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (28.9ms)
+Rendered articles/index.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 59ms (Views: 44.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:39:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.3ms)
+Rendered articles/index.html.erb within layouts/application (94.3ms)
+Completed 200 OK in 130ms (Views: 103.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:39:30 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 49ms (Views: 34.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:39:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 59ms (Views: 45.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:39:49 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.4ms)
+Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 48ms (Views: 33.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:41:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (79.1ms)
+Rendered articles/index.html.erb within layouts/application (87.4ms)
+Completed 200 OK in 109ms (Views: 93.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:46:17 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (21.1ms)
+Rendered articles/index.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 63ms (Views: 46.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:47:07 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.9ms)
+Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 51ms (Views: 35.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:47:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (68.5ms)
+Rendered articles/index.html.erb within layouts/application (76.5ms)
+Completed 200 OK in 97ms (Views: 82.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:48:00 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 48ms (Views: 34.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:48:02 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.6ms)
+Rendered articles/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 52ms (Views: 36.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:48:03 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (29.9ms)
+Rendered articles/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 64ms (Views: 45.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:48:22 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (81.2ms)
+Rendered articles/index.html.erb within layouts/application (89.3ms)
+Completed 200 OK in 111ms (Views: 95.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:49:16 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.2ms)
+Rendered articles/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 53ms (Views: 39.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:50:02 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 52ms (Views: 35.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:50:21 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.2ms)
+Rendered articles/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 48ms (Views: 34.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:50:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.8ms)
+Rendered articles/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 96ms (Views: 34.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:50:36 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.6ms)
+Rendered articles/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 55ms (Views: 38.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:50:37 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.0ms)
+Rendered articles/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 48ms (Views: 33.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:50:37 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.0ms)
+Rendered articles/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 97ms (Views: 34.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:51:03 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (65.6ms)
+Rendered articles/index.html.erb within layouts/application (73.3ms)
+Completed 200 OK in 93ms (Views: 79.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:51:44 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.5ms)
+Rendered articles/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 50ms (Views: 35.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:52:02 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (20.9ms)
+Rendered articles/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 49ms (Views: 34.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:52:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (20.7ms)
+Rendered articles/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 48ms (Views: 34.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:52:41 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (69.2ms)
+Rendered articles/index.html.erb within layouts/application (77.2ms)
+Completed 200 OK in 98ms (Views: 83.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:52:51 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.3ms)
+Rendered articles/index.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 49ms (Views: 35.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:53:22 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.7ms)
+Rendered articles/index.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 55ms (Views: 39.5ms | ActiveRecord: 1.0ms)
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateArticles (20110609210431)
+Migrating to AddImageUrlToArticles (20110615025611)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (16.1ms)[0m  [1mALTER TABLE "articles" ADD "img_url" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110615025611')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("articles")
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:57:16 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.5ms)
+Rendered articles/index.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 57ms (Views: 37.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2011-06-14 21:57:23 -0500
+  Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = 1 LIMIT 1
+Rendered articles/_form.html.erb (104.8ms)
+Rendered articles/edit.html.erb within layouts/application (113.9ms)
+Completed 200 OK in 143ms (Views: 122.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 21:59:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.4ms)
+Rendered articles/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 53ms (Views: 37.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:00:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.0ms)
+Rendered articles/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 57ms (Views: 35.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2011-06-14 22:01:26 -0500
+  Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = 1 LIMIT 1[0m
+Rendered articles/_form.html.erb (30.8ms)
+Rendered articles/edit.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 64ms (Views: 43.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2011-06-14 22:01:29 -0500
+  Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.6ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = 1 LIMIT 1
+Rendered articles/_form.html.erb (78.9ms)
+Rendered articles/edit.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 111ms (Views: 91.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/articles/1" for 127.0.0.1 at 2011-06-14 22:01:30 -0500
+  Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBhdKr6ZAF3VxquWLJBPxhbeKzfmvNhcWTI2Eo+EumY=", "article"=>{"title"=>"HTC EVO View 4G tries to sneak through FCC, gets caught", "description"=>"We're only a fortnight away from Sprint's launch of the HTC EVO View 4G, and we were beginning to wonder if we'd see the WiMax tablet wander into Washington, DC anytime soon. Today is the day, friends, as we just dug up some test reports for the HTC PG41200 tablet with WiMAX support. While the documents don't offer up any more juicy details, we won't have to wait terribly long before we can fork over $400 for the privilege of holding this baby in our own hands. Head past the break for more imagery.", "hyperlink"=>"http://www.engadget.com/2011/06/10/htc-evo-view-4g-tries-to-sneak-through-fcc-gets-caught/", "published_at(1i)"=>"2011", "published_at(2i)"=>"6", "published_at(3i)"=>"10", "published_at(4i)"=>"20", "published_at(5i)"=>"04"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 43ms
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2011-06-14 22:01:30 -0500
+  Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = 1 LIMIT 1
+Rendered articles/_article.html.erb (3.5ms)
+Rendered articles/show.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 99ms (Views: 31.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2011-06-14 22:01:36 -0500
+  Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = 1 LIMIT 1[0m
+Rendered articles/_form.html.erb (78.8ms)
+Rendered articles/edit.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 111ms (Views: 91.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:01:39 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.6ms)
+Rendered articles/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 56ms (Views: 40.5ms | ActiveRecord: 1.6ms)
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:16:37 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.3ms)
+Rendered articles/index.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 105ms (Views: 89.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:17:40 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.3ms)
+Rendered articles/index.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 68ms (Views: 38.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:18:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.3ms)
+Rendered articles/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 51ms (Views: 36.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:19:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.1ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.3ms)
+Rendered articles/index.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 58ms (Views: 41.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:21:03 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (78.3ms)
+Rendered articles/index.html.erb within layouts/application (89.1ms)
+Completed 200 OK in 110ms (Views: 95.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:28:39 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.4ms)
+Rendered articles/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 54ms (Views: 38.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:42:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.5ms)
+Rendered articles/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 52ms (Views: 36.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:42:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.4ms)
+Rendered articles/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 51ms (Views: 36.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:42:57 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (103.0ms)
+Rendered articles/index.html.erb within layouts/application (114.7ms)
+Completed 200 OK in 138ms (Views: 122.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:44:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.5ms)
+Rendered articles/index.html.erb within layouts/application (79.4ms)
+Completed 200 OK in 99ms (Views: 85.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:47:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.6ms)
+Rendered articles/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 52ms (Views: 36.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:49:20 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (33.7ms)
+Rendered articles/index.html.erb within layouts/application (41.2ms)
+Completed 200 OK in 63ms (Views: 47.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:50:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.3ms)
+Rendered articles/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 55ms (Views: 38.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:50:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (79.9ms)
+Rendered articles/index.html.erb within layouts/application (88.5ms)
+Completed 200 OK in 114ms (Views: 95.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:50:59 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.2ms)
+Rendered articles/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 52ms (Views: 37.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:51:06 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.4ms)
+Rendered articles/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 66ms (Views: 43.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:53:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (29.6ms)
+Rendered articles/index.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 67ms (Views: 48.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:55:20 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.8ms)
+Rendered articles/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 53ms (Views: 38.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:55:43 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.0ms)
+Rendered articles/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 57ms (Views: 39.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 22:57:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.2ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (81.1ms)
+Rendered articles/index.html.erb within layouts/application (90.1ms)
+Completed 200 OK in 129ms (Views: 108.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:10:01 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.7ms)
+Rendered articles/index.html.erb within layouts/application (82.1ms)
+Completed 200 OK in 105ms (Views: 88.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:10:01 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:10:35 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.1ms)
+Rendered articles/index.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 59ms (Views: 42.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:10:35 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:10:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.2ms)
+Rendered articles/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 53ms (Views: 37.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:13:28 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (82.7ms)
+Rendered articles/index.html.erb within layouts/application (90.6ms)
+Completed 200 OK in 113ms (Views: 97.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:13:28 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:13:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.2ms)
+Rendered articles/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 54ms (Views: 39.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:13:30 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:16:17 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.3ms)
+Rendered articles/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 57ms (Views: 41.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:16:18 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:19:40 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.8ms)
+Rendered articles/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 52ms (Views: 36.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:19:41 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:19:41 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (53.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.9ms)
+Rendered articles/index.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 108ms (Views: 38.5ms | ActiveRecord: 53.4ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:19:41 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:20:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (77.3ms)
+Rendered articles/index.html.erb within layouts/application (84.8ms)
+Completed 200 OK in 106ms (Views: 90.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:20:24 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:20:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.6ms)
+Rendered articles/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 52ms (Views: 37.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:20:25 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:20:26 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.5ms)
+Rendered articles/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 55ms (Views: 37.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:20:26 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:20:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.0ms)
+Rendered articles/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 104ms (Views: 88.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:20:27 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:20:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.8ms)
+Rendered articles/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 54ms (Views: 38.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:20:28 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:20:28 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.7ms)
+Rendered articles/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 56ms (Views: 36.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:20:28 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:22:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.2ms)
+Rendered articles/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 54ms (Views: 38.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:22:30 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:22:43 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.7ms)
+Rendered articles/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 108ms (Views: 36.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:22:43 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:22:44 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (72.3ms)
+Rendered articles/index.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 102ms (Views: 86.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:22:45 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:22:45 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.7ms)
+Rendered articles/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 56ms (Views: 36.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:22:45 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:22:52 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.6ms)
+Rendered articles/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 53ms (Views: 38.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:22:52 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:22:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (74.9ms)
+Rendered articles/index.html.erb within layouts/application (82.7ms)
+Completed 200 OK in 104ms (Views: 89.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:22:54 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:23:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (24.5ms)
+Rendered articles/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 56ms (Views: 39.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:23:06 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:24:09 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.8ms)
+Rendered articles/index.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 62ms (Views: 36.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:24:10 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (21.5ms)
+Rendered articles/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 56ms (Views: 34.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:24:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (49.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (22.5ms)
+Rendered articles/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 99ms (Views: 36.7ms | ActiveRecord: 49.4ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:24:32 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:24:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.1ms)
+Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 62ms (Views: 36.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:24:33 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:24:34 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (37.1ms)
+Rendered articles/index.html.erb within layouts/application (48.5ms)
+Completed 200 OK in 74ms (Views: 59.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:24:34 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:26:22 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.4ms)
+Rendered articles/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 51ms (Views: 36.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:26:22 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:26:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.3ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (77.4ms)
+Rendered articles/index.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 131ms (Views: 105.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:26:23 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:26:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (22.7ms)
+Rendered articles/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 52ms (Views: 36.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:26:24 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:26:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.5ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (26.2ms)
+Rendered articles/index.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 60ms (Views: 41.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:26:25 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2011-06-14 23:27:04 -0500
+  Processing by ArticlesController#new as HTML
+Rendered articles/_form.html.erb (74.4ms)
+Rendered articles/new.html.erb within layouts/application (80.6ms)
+Completed 200 OK in 104ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2011-06-14 23:28:18 -0500
+  Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBhdKr6ZAF3VxquWLJBPxhbeKzfmvNhcWTI2Eo+EumY=", "article"=>{"title"=>"6 People Who Had No Clue Their Faces Were World-Famous", "description"=>"Imagine that your face has been famous for years or decades, and you never had any idea. This happens -- people have found out that completely without their knowledge, they've become icons.", "hyperlink"=>"http://www.cracked.com/article_19179_6-people-who-had-no-clue-their-faces-were-world-famous.html", "published_at(1i)"=>"2011", "published_at(2i)"=>"6", "published_at(3i)"=>"15", "published_at(4i)"=>"04", "published_at(5i)"=>"27"}, "commit"=>"Create Article"}
+  [1m[36mAREL (0.7ms)[0m  [1mINSERT INTO "articles" ("title", "description", "hyperlink", "published_at", "created_at", "updated_at", "img_url") VALUES ('6 People Who Had No Clue Their Faces Were World-Famous', 'Imagine that your face has been famous for years or decades, and you never had any idea. This happens -- people have found out that completely without their knowledge, they''ve become icons.', 'http://www.cracked.com/article_19179_6-people-who-had-no-clue-their-faces-were-world-famous.html', '2011-06-15 04:27:00.000000', '2011-06-15 04:28:18.349719', '2011-06-15 04:28:18.349719', NULL)[0m
+Redirected to http://localhost:3000/articles/7
+Completed 302 Found in 198ms
+
+
+Started GET "/articles/7" for 127.0.0.1 at 2011-06-14 23:28:18 -0500
+  Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = 7 LIMIT 1
+Rendered articles/_article.html.erb (3.3ms)
+Rendered articles/show.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 103ms (Views: 32.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:28:21 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (78.0ms)
+Rendered articles/index.html.erb within layouts/application (88.3ms)
+Completed 200 OK in 118ms (Views: 95.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:28:22 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:31:46 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.2ms)
+Rendered articles/index.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 65ms (Views: 37.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:31:47 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:35:05 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.1ms)
+Rendered articles/index.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 52ms (Views: 37.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:35:06 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:35:07 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.1ms)
+Rendered articles/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 104ms (Views: 38.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:35:07 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:35:22 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (76.0ms)
+Rendered articles/index.html.erb within layouts/application (84.5ms)
+Completed 200 OK in 106ms (Views: 90.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:35:22 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:41:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (3.4ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.7ms)
+Rendered articles/index.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 65ms (Views: 40.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:41:27 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:41:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (24.0ms)
+Rendered articles/index.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 53ms (Views: 37.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:41:38 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:41:40 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.7ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.8ms)
+Rendered articles/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 54ms (Views: 39.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:41:40 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:45:30 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.5ms)
+Rendered articles/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 55ms (Views: 40.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:45:30 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:45:45 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (76.1ms)
+Rendered articles/index.html.erb within layouts/application (83.8ms)
+Completed 200 OK in 105ms (Views: 90.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:45:45 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:46:20 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (24.4ms)
+Rendered articles/index.html.erb within layouts/application (81.7ms)
+Completed 200 OK in 107ms (Views: 87.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:46:20 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:50:27 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.9ms)
+Rendered articles/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 53ms (Views: 38.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:53:10 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.2ms)
+Rendered articles/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 57ms (Views: 39.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:53:10 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:53:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.7ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (23.1ms)
+Rendered articles/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 51ms (Views: 36.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:53:12 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:53:54 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (75.8ms)
+Rendered articles/index.html.erb within layouts/application (84.1ms)
+Completed 200 OK in 105ms (Views: 90.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:53:55 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:54:55 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.0ms)
+Rendered articles/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 55ms (Views: 39.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:54:56 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:54:56 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (26.2ms)
+Rendered articles/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 56ms (Views: 40.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:54:57 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:55:00 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (27.1ms)
+Rendered articles/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 70ms (Views: 41.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:55:43 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (25.8ms)
+Rendered articles/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 56ms (Views: 39.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:56:02 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.7ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.9ms)
+Rendered articles/index.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 55ms (Views: 38.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:56:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (24.5ms)
+Rendered articles/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 54ms (Views: 38.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:56:33 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (27.2ms)
+Rendered articles/index.html.erb within layouts/application (36.9ms)
+Completed 200 OK in 70ms (Views: 53.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:56:42 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (77.7ms)
+Rendered articles/index.html.erb within layouts/application (86.4ms)
+Completed 200 OK in 108ms (Views: 92.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:57:06 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (28.6ms)
+Rendered articles/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 65ms (Views: 42.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:57:08 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (26.1ms)
+Rendered articles/index.html.erb within layouts/application (36.6ms)
+Completed 200 OK in 63ms (Views: 42.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:57:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.5ms)
+Rendered articles/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 56ms (Views: 39.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:57:35 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.7ms)
+Rendered articles/index.html.erb within layouts/application (83.2ms)
+Completed 200 OK in 104ms (Views: 89.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:57:36 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:58:59 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (76.5ms)
+Rendered articles/index.html.erb within layouts/application (86.4ms)
+Completed 200 OK in 109ms (Views: 92.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:58:59 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:59:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.6ms)
+Rendered articles/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 52ms (Views: 37.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:59:11 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:59:18 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.7ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.1ms)
+Rendered articles/index.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 56ms (Views: 38.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:59:18 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:59:30 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.5ms)
+Rendered articles/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 53ms (Views: 37.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:59:30 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:59:45 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.1ms)
+Rendered articles/index.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 57ms (Views: 39.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:59:45 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-14 23:59:46 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.5ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (92.6ms)
+Rendered articles/index.html.erb within layouts/application (101.0ms)
+Completed 200 OK in 122ms (Views: 107.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-14 23:59:46 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:00:19 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (25.5ms)
+Rendered articles/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 57ms (Views: 39.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:00:19 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:04:03 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (2.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.9ms)
+Rendered articles/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 53ms (Views: 37.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:04:03 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:04:04 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (34.1ms)
+Rendered articles/index.html.erb within layouts/application (41.9ms)
+Completed 200 OK in 64ms (Views: 47.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:04:04 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:04:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (75.2ms)
+Rendered articles/index.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 106ms (Views: 89.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:04:23 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:04:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.7ms)
+Rendered articles/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 54ms (Views: 38.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:04:24 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:05:08 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.5ms)
+Rendered articles/index.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 52ms (Views: 37.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:05:08 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:05:10 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (29.5ms)
+Rendered articles/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 63ms (Views: 47.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:05:11 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:05:24 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.9ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (26.6ms)
+Rendered articles/index.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 111ms (Views: 42.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:05:25 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:07:29 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (77.3ms)
+Rendered articles/index.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 107ms (Views: 91.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:07:29 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:07:30 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (36.7ms)
+Rendered articles/index.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 66ms (Views: 50.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:07:30 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:07:31 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.4ms)
+Rendered articles/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 57ms (Views: 38.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:07:31 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:07:32 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (37.9ms)
+Rendered articles/index.html.erb within layouts/application (50.3ms)
+Completed 200 OK in 127ms (Views: 56.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:07:32 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:08:23 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.7ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (82.2ms)
+Rendered articles/index.html.erb within layouts/application (90.8ms)
+Completed 200 OK in 112ms (Views: 96.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:08:24 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:08:25 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.8ms)
+Rendered articles/index.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 53ms (Views: 38.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:08:25 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:08:25 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (26.5ms)
+Rendered articles/index.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 57ms (Views: 41.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:08:26 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:08:38 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (24.4ms)
+Rendered articles/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 53ms (Views: 38.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:08:38 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:08:39 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (75.3ms)
+Rendered articles/index.html.erb within layouts/application (83.8ms)
+Completed 200 OK in 112ms (Views: 93.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:08:39 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:10:49 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (24.3ms)
+Rendered articles/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 58ms (Views: 40.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stylesheets/partials/images/topbar_shadow.png" for 127.0.0.1 at 2011-06-15 00:10:49 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/partials/images/topbar_shadow.png"):
+  
+
+Rendered /home/darkeva02/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:12:25 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.9ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (26.2ms)
+Rendered articles/index.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 58ms (Views: 41.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:15:53 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (23.8ms)
+Rendered articles/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 54ms (Views: 38.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:18:47 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (3.6ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (27.8ms)
+Rendered articles/index.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 118ms (Views: 42.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:19:16 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+Rendered articles/_article.html.erb (76.9ms)
+Rendered articles/index.html.erb within layouts/application (86.1ms)
+Completed 200 OK in 108ms (Views: 92.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-06-15 00:20:11 -0500
+  Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (2.0ms)[0m  SELECT "articles".* FROM "articles"
+Rendered articles/_article.html.erb (24.2ms)
+Rendered articles/index.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 55ms (Views: 39.1ms | ActiveRecord: 2.0ms)

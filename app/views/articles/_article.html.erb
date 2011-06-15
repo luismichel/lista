@@ -1,10 +1,22 @@
 <%= div_for article do %>
 	<h3>
-		<%= link_to article.title, article.hyperlink %>
-			<span class='actions'>
+		<div id="article_title">
+			<%= link_to article.title, article.hyperlink %>
+			<div id="actions">
+			<span class='actions' >
 				<%= link_to "Edit", edit_article_path(article) %>
 				<%= link_to "Delete", article, :confirm => "Are you sure?", :method => :delete %>
 			</span>
+		</div>
+		</div>
 	</h3>
-	<%= simple_format article.description %>
+	<div class="article_image">
+		<img src="http://www.blogcdn.com/www.engadget.com/media/2011/06/evoviewfcc3-20110610.jpg" width="130" height="70">
+	</div>
+	<div class="article_description">
+		<%= simple_format article.description %>
+	</div>
+	<div class="article_divide">
+		<hr />
+	</div>
 <% end %>
