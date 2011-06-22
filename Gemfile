@@ -7,6 +7,7 @@ gem "compass", ">= 0.11.1"
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'fb_graph'
 
 # Use unicorn as the web server
 # gem 'unicorn'

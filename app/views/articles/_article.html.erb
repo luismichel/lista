@@ -1,7 +1,17 @@
 <%= div_for article do %>
+
+
 	<h3>
-		<div id="article_title">
+		
+		<% if x == 1%>
+			<div id="article_title">
+			<%= link_to article.title, article %>
+		<% else %>
+			<div class="article_title_big" >
+			<h1>
 			<%= link_to article.title, article.hyperlink %>
+			</h1>
+		<%end%>
 			<div id="actions">
 			<span class='actions' >
 				<%= link_to "Edit", edit_article_path(article) %>
@@ -11,7 +21,8 @@
 		</div>
 	</h3>
 	<div class="article_image">
-		<img src="http://www.blogcdn.com/www.engadget.com/media/2011/06/evoviewfcc3-20110610.jpg" width="130" height="70">
+		
+		<%= image_tag(article.img_url, :size => '150x70')  %>
 	</div>
 	<div class="article_description">
 		<%= simple_format article.description %>

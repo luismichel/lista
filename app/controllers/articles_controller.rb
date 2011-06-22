@@ -2,8 +2,13 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.xml
   def index
-    @articles = Article.all
-
+  	
+  	if( request.subdomain == 'www' || request.subdomain == '')
+    		@articles = Article.all
+    else
+    		user = User.find_by_subdomain(request.subdomain)
+    		@articles = Article.where( :user_id => user.id)
+	end
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @articles }

@@ -1,35 +1,57 @@
 /* line 6, ../../../app/stylesheets/partials/article.scss */
-#topbar {
+.topbar {
   font-family: sans-serif;
   font-size: 12px;
   color: white;
   text-align: right;
   width: 100%;
-  height: 40px;
+  height: 38px;
   background-color: gray;
 }
 /* line 15, ../../../app/stylesheets/partials/article.scss */
-#topbar #article_new {
+.topbar #article_new {
   margin-right: 10px;
 }
+/* line 19, ../../../app/stylesheets/partials/article.scss */
+.topbar #topbar_logo {
+  padding-top: 10px;
+  float: left;
+}
 
-/* line 21, ../../../app/stylesheets/partials/article.scss */
-#topbar_shadow {
+/* line 26, ../../../app/stylesheets/partials/article.scss */
+.topbar_shadow {
   width: 100%;
   height: 20px;
   background-image: url("/images/topbar_shadow.png");
   background-repeat: repeat-x;
   float: left;
+  z-index: -1;
+  position: absolute;
+  top: -100px;
 }
 
-/* line 32, ../../../app/stylesheets/partials/article.scss */
+/* line 38, ../../../app/stylesheets/partials/article.scss */
+#topbar_back {
+  width: 100%;
+  height: 40px;
+  background-color: gray;
+  z-index: -2;
+  position: absolute;
+}
+
+/* line 48, ../../../app/stylesheets/partials/article.scss */
 #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
+  border: solid;
+  border-width: 1px;
+  border-color: #bfbfbf;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-/* line 35, ../../../app/stylesheets/partials/article.scss */
+/* line 56, ../../../app/stylesheets/partials/article.scss */
 #container #title {
   display: inline;
   float: left;
@@ -43,8 +65,16 @@
 * html #container #title {
   overflow-x: hidden;
 }
-/* line 43, ../../../app/stylesheets/partials/article.scss */
-#container #articles {
+
+/* line 67, ../../../app/stylesheets/partials/article.scss */
+.actions a {
+  color: black;
+  font-size: 10px;
+  float: right;
+}
+
+/* line 75, ../../../app/stylesheets/partials/article.scss */
+.article {
   display: inline;
   float: left;
   margin-right: 10px;
@@ -52,28 +82,49 @@
   font-family: sans-serif;
 }
 /* line 147, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html #container #articles {
+* html .article {
   overflow-x: hidden;
 }
-
-/* line 54, ../../../app/stylesheets/partials/article.scss */
-.article #actions a {
+/* line 79, ../../../app/stylesheets/partials/article.scss */
+.article .article_title_big {
+  height: 50px;
+  font-weight: bold;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 790px;
+  font-size: 30px;
+  padding-top: 20px;
+}
+/* line 147, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .article .article_title_big {
+  overflow-x: hidden;
+}
+/* line 85, ../../../app/stylesheets/partials/article.scss */
+.article .article_title_big a {
+  color: #0d27a5;
+  font-size: 25px;
+  text-decoration: none;
+}
+/* line 96, ../../../app/stylesheets/partials/article.scss */
+.article .actions a {
   color: black;
   font-size: 10px;
   float: right;
 }
-/* line 61, ../../../app/stylesheets/partials/article.scss */
+/* line 103, ../../../app/stylesheets/partials/article.scss */
 .article a {
-  color: blue;
+  color: #0d27a5;
   font-size: 15px;
   text-decoration: none;
 }
-/* line 67, ../../../app/stylesheets/partials/article.scss */
+/* line 109, ../../../app/stylesheets/partials/article.scss */
 .article p {
   font-size: 12px;
+  font-family: sans-serif;
 }
-/* line 71, ../../../app/stylesheets/partials/article.scss */
-.article #article_title {
+/* line 114, ../../../app/stylesheets/partials/article.scss */
+.article .article_title {
   font-weight: bold;
   display: inline;
   float: left;
@@ -81,10 +132,10 @@
   width: 790px;
 }
 /* line 147, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html .article #article_title {
+* html .article .article_title {
   overflow-x: hidden;
 }
-/* line 76, ../../../app/stylesheets/partials/article.scss */
+/* line 119, ../../../app/stylesheets/partials/article.scss */
 .article .article_image {
   display: inline;
   float: left;
@@ -95,7 +146,7 @@
 * html .article .article_image {
   overflow-x: hidden;
 }
-/* line 80, ../../../app/stylesheets/partials/article.scss */
+/* line 123, ../../../app/stylesheets/partials/article.scss */
 .article .article_description {
   display: inline;
   float: left;
@@ -106,7 +157,7 @@
 * html .article .article_description {
   overflow-x: hidden;
 }
-/* line 84, ../../../app/stylesheets/partials/article.scss */
+/* line 127, ../../../app/stylesheets/partials/article.scss */
 .article .article_divide {
   display: inline;
   float: left;
@@ -117,4 +168,13 @@
 /* line 147, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html .article .article_divide {
   overflow-x: hidden;
+}
+
+/* line 134, ../../../app/stylesheets/partials/article.scss */
+.back_link {
+  color: black;
+  float: right;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: sans-serif;
 }

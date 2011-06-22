@@ -6,17 +6,13 @@
 <div id="topbar_container">
 	<div class="topbar">
 		<div id="topbar_logo">
-			<a href ><img src="/images/siallogo.png" width=70px height=20px></a>
+			<img src="/images/siallogo.png" width=70px height=20px>
 		</div>
 		<div id="article_new">
 			<%= link_to 'New Article', new_article_path %>
 		</div>
 	</div>
+	<div class="topbar_shadow">
+	</div>
 </div>
 <br />
-<div id="article">
-	<%= render @article , :x => 0 %>
-</div>
-<div class="back_link">
-	<%= link_to 'Back', articles_path %>
-</div>

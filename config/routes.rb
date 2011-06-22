@@ -1,8 +1,9 @@
 Lista::Application.routes.draw do
-  resources :articles
+  resources :users
 
-	root :to => "articles#index"
-	resources :articles
+  resources :articles
+  match '/' => 'articles#index', :constraints => { :subdomain => /.+/ }
+  root :to => "articles#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

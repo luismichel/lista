@@ -1,35 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<%= stylesheet_link_tag 'screen.css', :media => 'screen, projection' %>
-	<%= stylesheet_link_tag 'print.css', :media => 'print' %>
-	<%= stylesheet_link_tag 'partials/article.css', :media=> 'screen' %>
-	<%= stylesheet_link_tag 'buttons.css', :media => 'screen, projection' %>
-	<!--[if lt IE 8]><%= stylesheet_link_tag 'ie.css', :media => 'screen, projection' %><![endif]-->
-</head>
-<body>
-	<div id="topbar_container">
-		<div id="topbar">
-			<div id="article_new">
-				<%= link_to 'New Article', new_article_path %>
-			</div>
+<div id= "topbar_back">
+</div>
+<div class="topbar_shadow">
+</div>
+<div class="container" id="container">
+<div id="topbar_container">
+	<div class="topbar">
+		<div id="topbar_logo">
+			<a href src="/articles"><img src="/images/siallogo.png" width=70px height=20px></a>
 		</div>
-		<div id="topbar_shadow">
+		<div id="article_new">
+			<%= link_to 'New Article', new_article_path %>
 		</div>
 	</div>
-
-	<div class="container" id="container">
-	<br />
-	<div id="title">
-		<h1 >Top stories</h1>
-	</div>
-	<hr />
-	<br />
-	<div id="articles">
-		<%= render @articles %>
-	</div>
-	<br />
-		
-	</div>
-</body>
-</html>
+</div>
+<br />
+<div id="title">
+	<h1 >Top stories</h1>
+</div>
+<hr />
+<br />
+<div class="article">
+	<%= render @articles , :x => 1 %>
+</div>
+<br />
+	
+</div>

@@ -2,35 +2,56 @@
 @import "blueprint/buttons";
 
 
-#topbar
+.topbar
 {
 	font-family: sans-serif;
 	font-size: 12px;
 	color: white;
 	text-align: right;
 	width: 100%;
-	height:40px;
+	height:38px;
 	background-color: gray;
 	
 	#article_new{
 		margin-right: 10px;
 	}
+	
+	#topbar_logo{
+		padding-top: 10px;
+		float: left;
+	}
 }
 
-#topbar_shadow
+.topbar_shadow
 {
 	width: 100%;
 	height:20px;
 	background-image: url('/images/topbar_shadow.png');
 	background-repeat:repeat-x;
 	float: left;
-	
+	z-index: -1;
+	position: absolute;
+	top: -100px;
 }
 
+#topbar_back
+{
+	width:100%;
+	height:40px;
+	background-color:gray;
+	z-index:-2;
+	position: absolute;;
+
+}
 
 #container
 {
 	@include container;
+	border: solid;
+	border-width: 1px;
+	border-color: #bfbfbf;
+	padding-left: 5px;
+	padding-right:5px;
 	#title
 	{
 		@include column($blueprint-grid-columns);
@@ -38,37 +59,59 @@
 		font-family: sans-serif;
 		font-weight: bold;
 	}
-	
-	#articles
-	{
-			@include column($blueprint-grid-columns);
-			font-family: sans-serif;
+
+}
+
+.actions
+{	
+	a{
+		color:black;
+		font-size: 10px;
+		float: right;
 	}
 }
 
 .article
 {
+	@include column($blueprint-grid-columns);
+	font-family: sans-serif;
 	
-	#actions
-	{	
+	.article_title_big{
+		height: 50px;
+		font-weight: bold;
+		@include column(20);
+		font-size: 30px;
+		padding-top: 20px;
 		a{
-			color:black;
-			font-size: 10px;
-			float: right;
+			color: #0d27a5;
+			font-size: 25px;
+			text-decoration: none;
 		}
+		
 	}
-
+	
+	
+	.actions
+{	
 	a{
-		color: blue;
+		color:black;
+		font-size: 10px;
+		float: right;
+	}
+}
+	
+	a{
+		color: #0d27a5;
 		font-size: 15px;
 		text-decoration: none;
 	}
 	
 	p{
 		font-size: 12px;
+		font-family: sans-serif;
 	}
 	
-	#article_title{
+	.article_title{
 		font-weight: bold;
 		@include column(20);
 	}
@@ -85,6 +128,15 @@
 		@include column(22);
 		color: #ff4300;
 	}
+	
+}
+
+.back_link{
+	color:black;
+	float: right;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: sans-serif;
 }
 
 
